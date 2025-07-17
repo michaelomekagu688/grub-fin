@@ -1,6 +1,6 @@
 
 
-import { CalendarMonthOutlined, FilterAltOutlined, KeyboardBackspaceOutlined } from '@mui/icons-material'
+import { CalendarMonthOutlined, FilterAltOutlined} from '@mui/icons-material'
 import React from 'react'
 import './navbar.scss'
 
