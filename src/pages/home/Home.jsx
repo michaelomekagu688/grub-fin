@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <div className='home'>
         <Navbar />
+       
         <div className='first-sec'>
             <h1> Market Segmentation </h1>
             <h5> Last 3 month </h5>

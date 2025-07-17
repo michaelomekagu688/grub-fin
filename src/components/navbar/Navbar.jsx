@@ -7,7 +7,7 @@ import './navbar.scss'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <KeyboardBackspaceOutlined className='icons back' />
+         <h1 className='logo black'> Grubbly </h1>
         <CalendarMonthOutlined className='icons' />
         <FilterAltOutlined className='icons' />
     </div>
