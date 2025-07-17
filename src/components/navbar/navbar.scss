@@ -1,0 +1,22 @@
+
+.navbar{
+    margin: .5em .2em;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: space-between;
+
+    .back{
+        margin-right: auto;
+    }
+
+    .icons{
+        font-size: 1rem;
+        padding: .5em;
+        background-color: rgba(128, 128, 128, 0.08);
+        border-radius: 50%;
+        color: rgba(0, 0, 0, 0.705);
+
+    }
+}

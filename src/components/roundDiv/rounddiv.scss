@@ -1,0 +1,73 @@
+
+.rounddiv{
+    background-color: rgba(165, 130, 42, 0.463);
+    border-radius: 1rem;
+    margin-top: 1.2em;
+    padding: 1em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2{
+            font-weight: 700;
+            font-size: 1rem;
+            margin: 0;
+
+        }
+        .icons{
+            color: rgb(128, 128, 128);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+    }
+    .middle{
+
+        p{
+            font-size: .8rem;
+            font-weight: 550;
+            color: rgba(0, 0, 0, 0.605);
+            margin: 0;
+        }
+    }
+    .bottom{
+        margin-top: 1.8em;
+
+        .inner-top{
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                font-size: .8rem;
+                font-weight: 700;
+            }
+        }
+        .inner-bottom{
+            width: 100%;
+            
+            div{
+                background-color: rgba(128, 128, 128, 0.445);
+                height: .4rem;
+                display: flex;
+                border-radius: .2rem;
+
+                label{
+                    color: black;
+                    height: .4rem;
+                    background-color:black;
+                    border-radius: .2rem;
+                    width: 30%;
+                    display: inline-block;
+
+                }
+            }
+
+        }
+
+    }
+}
